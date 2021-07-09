@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="./main.js"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Игра в пары</title>
+</head>
+
+<body>
+  <div class="fixed-container">
+    <ul id="container">
+
+    </ul>
+
+    <div class="choose-parameters">
+      <h1 class="choose-parameters__heading">ИГРА В&nbsp;ПАРЫ</h1>
+      <div class="choose-parameters__wrapper">
+
+        <div class="cards-qty choose-parameters__item">
+          <h2 class="heading cards-qty__heading">Введите количество карточек</h2>
+          <input class="cards-qty__input" type="number" placeholder="Кратно 4, не более 28">
+        </div>
+
+        <div class="difficulty choose-parameters__item">
+          <h2 class="heading difficulty__heading">Сложность</h2>
+          <select class="difficulty__select" name="difficulty" id="difficulty">
+            <option value="90">
+              Легко (90 сек)
+            </option>
+            <option value="60">
+              Средне (60 сек)
+            </option>
+            <option value="30">
+              Сложно (30 сек)
+            </option>
+          </select>
+        </div>
+
+        <button class="button">Начать игру</button>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
