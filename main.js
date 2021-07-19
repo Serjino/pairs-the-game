@@ -80,10 +80,8 @@ function addCards (cardsQty) {
         else if (activeCards[0].style.background === activeCards[1].style.background) {
 
           activeCards.splice(0, 2);
-          // console.log('compared');
 
           if (document.querySelectorAll('.card-active').length == cardsQty) {
-              // console.log('win');
               let winOrLose = document.createElement('div');
               winOrLose.classList.add('win-or-lose');
               document.body.append(winOrLose);

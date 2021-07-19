@@ -44,7 +44,7 @@ body {
 }
 
 .card-hidden {
-  background: url('./img/question.png') no-repeat center center, rgba(109, 99, 111, 1)!important;
+  background: url('../img/question.png') no-repeat center center, rgba(109, 99, 111, 1)!important;
   background-size: 80% !important;
 }
 
